@@ -1,0 +1,83 @@
+{
+  "name": "@yeger/debounce",
+  "description": "A tiny TypeScript library for debouncing functions.",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": "github:DerYeger/debounce",
+  "homepage": "https://github.com/DerYeger",
+  "bugs": {
+    "url": "https://github.com/DerYeger/debounce/issues"
+  },
+  "author": {
+    "name": "Jan Müller",
+    "url": "https://github.com/DerYeger"
+  },
+  "keywords": [
+    "debounce",
+    "typescript",
+    "library"
+  ],
+  "scripts": {
+    "prepare": "husky install",
+    "prebuild": "rimraf ./dist",
+    "build": "tsc --noEmit && vite build",
+    "dev": "vite build --watch",
+    "lint": "yarn lint:prettier && yarn lint:eslint",
+    "lint:commits": "yarn commitlint --from=HEAD~1",
+    "lint:eslint": "eslint \"./**/*.{js,json,md,ts,vue}\"",
+    "lint:prettier": "prettier --check \"./**/*.{html,js,json,md,scss,ts,vue,yml}\"",
+    "fix": "yarn pretty && yarn lint:eslint --fix ",
+    "test": "yarn test:typecheck && yarn test:ci",
+    "test:ci": "rimraf ./coverage && c8 --reporter=lcov --reporter=text --all --src \"src\" --include \"src/*\" vitest --run",
+    "test:run": "vitest --run",
+    "test:typecheck": "tsc --noEmit -p test",
+    "test:watch": "vitest",
+    "pretty": "prettier --write \"./**/*.{js,json,html,md,scss,ts,vue,yml}\"",
+    "prepublishOnly": "yarn build"
+  },
+  "files": [
+    "dist",
+    "default.css"
+  ],
+  "main": "./dist/debounce.umd.js",
+  "module": "./dist/debounce.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/debounce.es.js",
+      "require": "./dist/debounce.umd.js"
+    }
+  },
+  "types": "dist/types/src/main.d.ts",
+  "sideEffects": false,
+  "devDependencies": {
+    "@commitlint/cli": "16.0.3",
+    "@commitlint/config-conventional": "16.0.0",
+    "@typescript-eslint/eslint-plugin": "5.10.0",
+    "@typescript-eslint/parser": "5.10.0",
+    "@vitest/ui": "0.1.25",
+    "@yeger/debounce": "link:.",
+    "c8": "7.11.0",
+    "eslint": "8.7.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "2.25.4",
+    "eslint-plugin-markdown": "2.2.1",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-tsdoc": "0.2.14",
+    "eslint-plugin-unused-imports": "2.0.0",
+    "husky": "7.0.4",
+    "lint-staged": "12.1.7",
+    "prettier": "2.5.1",
+    "rimraf": "3.0.2",
+    "typescript": "4.5.5",
+    "vite": "2.7.13",
+    "vite-plugin-dts": "0.9.9",
+    "vitest": "0.1.19"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "lint-staged": {
+    "*.{html,js,json,md,scss,ts,vue,yml}": "prettier --write",
+    "*.{js,json,md,ts,vue}": "eslint --fix"
+  }
+}
