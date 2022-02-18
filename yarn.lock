@@ -436,10 +436,10 @@
     "@typescript-eslint/types" "5.12.0"
     eslint-visitor-keys "^3.0.0"
 
-"@vitest/ui@0.3.6":
-  version "0.3.6"
-  resolved "https://registry.yarnpkg.com/@vitest/ui/-/ui-0.3.6.tgz#3218e89fe7156582fcbd472b840268eaf3a46f74"
-  integrity sha512-xnU6TJAdvMNQ0GVIxZT4GmlZ3FzgysgpzT93Ym+BKGCJGClzwCl5OwOa9MVLBcB0dC/syZ22wZHxXqJQkMh9/g==
+"@vitest/ui@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@vitest/ui/-/ui-0.4.0.tgz#49fe360e4dde31ba24a285377341a1ea3e518ef6"
+  integrity sha512-sVIj1Cz8c3UtRspxqhuFKDCePeyK/NM7b0W8X6l400zHJhI1stCGHDOs73YNikdLMcEnfgaVw/Sl9v/Z1B2phw==
   dependencies:
     sirv "^2.0.2"
 
