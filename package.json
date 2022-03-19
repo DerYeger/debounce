@@ -54,7 +54,7 @@
     "@commitlint/config-conventional": "16.2.1",
     "@typescript-eslint/eslint-plugin": "5.15.0",
     "@typescript-eslint/parser": "5.15.0",
-    "@vitest/ui": "0.7.4",
+    "@vitest/ui": "0.7.6",
     "@yeger/debounce": "link:.",
     "c8": "7.11.0",
     "eslint": "8.11.0",
