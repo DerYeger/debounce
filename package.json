@@ -47,7 +47,7 @@
       "require": "./dist/debounce.umd.js"
     }
   },
-  "types": "dist/types/src/main.d.ts",
+  "types": "dist/types/main.d.ts",
   "sideEffects": false,
   "devDependencies": {
     "@commitlint/cli": "16.2.3",
