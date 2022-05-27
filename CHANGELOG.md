@@ -1,3 +1,10 @@
+## [1.0.17](https://github.com/DerYeger/debounce/compare/v1.0.16...v1.0.17) (2022-05-27)
+
+
+### Bug Fixes
+
+* **release:** schedule release ([4e27d5c](https://github.com/DerYeger/debounce/commit/4e27d5c845c0af7afa1d1428bda84ea0e58adfed))
+
 ## [1.0.16](https://github.com/DerYeger/debounce/compare/v1.0.15...v1.0.16) (2022-05-19)
 
 
