@@ -52,8 +52,8 @@
   "devDependencies": {
     "@commitlint/cli": "17.0.1",
     "@commitlint/config-conventional": "17.0.0",
-    "@typescript-eslint/eslint-plugin": "5.26.0",
-    "@typescript-eslint/parser": "5.26.0",
+    "@typescript-eslint/eslint-plugin": "5.27.0",
+    "@typescript-eslint/parser": "5.27.0",
     "@vitest/ui": "0.13.0",
     "@yeger/debounce": "link:.",
     "c8": "7.11.3",
