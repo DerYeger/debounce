@@ -54,7 +54,7 @@
     "@commitlint/config-conventional": "17.0.3",
     "@typescript-eslint/eslint-plugin": "5.30.5",
     "@typescript-eslint/parser": "5.30.5",
-    "@vitest/ui": "0.17.0",
+    "@vitest/ui": "0.17.1",
     "@yeger/debounce": "link:.",
     "c8": "7.11.3",
     "eslint": "8.19.0",
@@ -71,7 +71,7 @@
     "typescript": "4.7.4",
     "vite": "2.9.13",
     "vite-plugin-dts": "1.2.1",
-    "vitest": "0.17.0"
+    "vitest": "0.17.1"
   },
   "publishConfig": {
     "access": "public"
