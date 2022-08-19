@@ -1,7 +1,7 @@
 {
   "name": "@yeger/debounce",
   "description": "A tiny TypeScript library for debouncing functions.",
-  "version": "1.0.30",
+  "version": "1.0.31",
   "license": "MIT",
   "repository": "github:DerYeger/debounce",
   "homepage": "https://github.com/DerYeger",
