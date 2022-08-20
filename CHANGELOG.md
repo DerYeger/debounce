@@ -1,3 +1,10 @@
+## [1.0.32](https://github.com/DerYeger/debounce/compare/v1.0.31...v1.0.32) (2022-08-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency vite to v3.0.9 ([c03765e](https://github.com/DerYeger/debounce/commit/c03765e995be67900916d32e990b26038c2c2ebf))
+
 ## [1.0.31](https://github.com/DerYeger/debounce/compare/v1.0.30...v1.0.31) (2022-08-19)
 
 
