@@ -1,3 +1,10 @@
+## [1.0.35](https://github.com/DerYeger/debounce/compare/v1.0.34...v1.0.35) (2022-08-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency typescript to v4.8.2 ([e008340](https://github.com/DerYeger/debounce/commit/e00834079eca2d56760530786a7ebec86e2ae839))
+
 ## [1.0.34](https://github.com/DerYeger/debounce/compare/v1.0.33...v1.0.34) (2022-08-25)
 
 
