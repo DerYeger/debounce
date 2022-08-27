@@ -1,3 +1,10 @@
+## [1.0.36](https://github.com/DerYeger/debounce/compare/v1.0.35...v1.0.36) (2022-08-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v8.23.0 ([9982675](https://github.com/DerYeger/debounce/commit/9982675b85b2c5cef5a73aab6b44f279772d41db))
+
 ## [1.0.35](https://github.com/DerYeger/debounce/compare/v1.0.34...v1.0.35) (2022-08-26)
 
 
