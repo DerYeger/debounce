@@ -1,3 +1,10 @@
+## [1.0.40](https://github.com/DerYeger/debounce/compare/v1.0.39...v1.0.40) (2022-09-10)
+
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo ([f87eb80](https://github.com/DerYeger/debounce/commit/f87eb802fa21092b230bc883505a2e8b1d978e0a))
+
 ## [1.0.39](https://github.com/DerYeger/debounce/compare/v1.0.38...v1.0.39) (2022-09-10)
 
 
