@@ -1,3 +1,10 @@
+## [1.0.39](https://github.com/DerYeger/debounce/compare/v1.0.38...v1.0.39) (2022-09-10)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([62fb284](https://github.com/DerYeger/debounce/commit/62fb284d108d110089135727eb51f07b13e65584))
+
 ## [1.0.38](https://github.com/DerYeger/debounce/compare/v1.0.37...v1.0.38) (2022-09-03)
 
 
