@@ -1,3 +1,10 @@
+## [1.0.44](https://github.com/DerYeger/debounce/compare/v1.0.43...v1.0.44) (2022-09-24)
+
+
+### Bug Fixes
+
+* **deps:** update actions/stale action to v6 ([abb76dc](https://github.com/DerYeger/debounce/commit/abb76dcf3cd5a637c7d3ae7d7570a33948884f43))
+
 ## [1.0.43](https://github.com/DerYeger/debounce/compare/v1.0.42...v1.0.43) (2022-09-24)
 
 
