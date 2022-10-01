@@ -1,3 +1,10 @@
+## [1.0.46](https://github.com/DerYeger/debounce/compare/v1.0.45...v1.0.46) (2022-10-01)
+
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to v5.38.1 ([ef3b5f4](https://github.com/DerYeger/debounce/commit/ef3b5f4097e12662380eca9ebc6ef301484d2f04))
+
 ## [1.0.45](https://github.com/DerYeger/debounce/compare/v1.0.44...v1.0.45) (2022-10-01)
 
 
