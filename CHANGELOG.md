@@ -1,3 +1,10 @@
+## [1.0.57](https://github.com/DerYeger/debounce/compare/v1.0.56...v1.0.57) (2022-11-05)
+
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo to v17.2.0 ([9f60f61](https://github.com/DerYeger/debounce/commit/9f60f612871968dd5f48f937cd05f87a6aa7b3a9))
+
 ## [1.0.56](https://github.com/DerYeger/debounce/compare/v1.0.55...v1.0.56) (2022-11-05)
 
 
