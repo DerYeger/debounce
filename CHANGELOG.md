@@ -1,3 +1,10 @@
+## [1.0.60](https://github.com/DerYeger/debounce/compare/v1.0.59...v1.0.60) (2022-11-12)
+
+
+### Bug Fixes
+
+* **deps:** update vitest monorepo to v0.25.1 ([13616ce](https://github.com/DerYeger/debounce/commit/13616cec7886d65dd6ec163cff1dc44317e7fcd3))
+
 ## [1.0.59](https://github.com/DerYeger/debounce/compare/v1.0.58...v1.0.59) (2022-11-12)
 
 
